@@ -68,7 +68,7 @@ def main():
     print('IGPack Filename:  {}'.format(igpack_filename))
     print('Target URL:       {}'.format(target_url))
     print('Access Token:     {}'.format('{}...'.format(access_token[0:3]) if access_token != None else None))
-    print(flush=True)
+    # print(flush=True)
 
     content_by_type = organize_content_by_type(archive_content)
 
